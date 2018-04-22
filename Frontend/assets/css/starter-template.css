@@ -1,0 +1,85 @@
+:root {
+  --boxSize: 80px;
+  --pieceSize: 60px;
+  --pieceMargin: 10px;
+  --kingSize: 40px;
+}
+
+.main {text-align:center;}
+
+.checkerBoard {
+  border-collapse: collapse;
+  border: thin black solid;
+  margin: 0px auto;
+}
+.cell{
+  width: var(--boxSize);
+  height: var(--boxSize);
+}
+
+.piece {
+  width: var(--pieceSize);
+  height: var(--pieceSize);
+  margin: var(--pieceMargin);
+  border-radius: 50%;
+}
+
+.possibleMoveLocation{
+  width: var(--pieceSize);
+  height: var(--pieceSize);
+  margin: var(--pieceMargin);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px #a00be6;
+}
+
+.black {background: grey;}
+
+.piece.light {background: rgb(0, 225, 255)}
+.piece.dark {background: rgb(255, 140, 0);}
+.piece.light.king::before {
+  margin: var(--pieceMargin);
+  align-content: center;
+  font-size: var(--kingSize);
+  content:"♕"}
+.piece.dark.king::before {
+  margin: var(--pieceMargin);
+  align-content: center;
+  font-size: var(--kingSize);
+  content:"♛"}
+.piece.selected {box-shadow: 0 0 10px 5px rgb(7, 206, 74);}
+
+.container-body {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.left-container {
+  flex: 0.50;
+  background-color: lightgrey;
+}
+
+.right-container{
+  flex: 0.50;
+  background-color: lightgrey;
+}
+
+.custom-nav-dropdown{
+	right: 0;
+	left: auto;
+	background-color: lightgrey;
+}
+.displayPlayer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.alert{
+  margin: 0% !important;
+}
+
+.quitButtonContainer{
+  text-align: center;
+  margin-top: 10px;
+}

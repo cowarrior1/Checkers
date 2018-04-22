@@ -1,0 +1,20 @@
+NodeJs Version should be upto date for webdriver to execute.
+Chrome binaries should be specified manuall with $PATH.
+
+SeleniumTest.java
+- Comfortable with this and is working. I think I will be using Selenium, Gradle and JUnit for automated and unit testings instead of mocha, webdriverjs.
+
+Environement Setup is necessary to run SeleniumTest.java.
+
+Code Coverage tools:
+JaCoCo plugin for code coverage for SeleniumTesting.java
+IstanbulJs for mochatesting.js
+
+Testing Frameworks: Mocha and Junit
+Build Tool: Gradle version 2.4.12
+JDK- "1.8.0_131"
+
+
+
+
+

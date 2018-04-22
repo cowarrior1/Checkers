@@ -1,0 +1,20 @@
+Release Note:
+
+v1.2 Final Release:
+
+What’s new:
+-	Fixed : Alerts both players when game over
+-	Added : Support for player quit and disconnect
+-	Added : Player’s turn display
+
+
+Previous Releases:
+
+v1.1 :
+-	Changed king piece view
+-	Score display added
+-	Added Box highlight for possible moves
+
+v1.0 :
+-	Added : Support for king piece
+-	Fixed : Not allowing more than 2 jumps in a row if possible
